@@ -11,10 +11,11 @@ for guessTaken in range(1,7):
     if guess >secretnumber:
        print("your number is too large")
     elif guess < secretnumber:
-       print("you  number is too small")
+       print("your  number is too small")
     else:
        break # This conditon  is  the correct guess
 if guess == secretnumber:
    print("Good job,you guessed my number in "+str(guessTaken)+' guesses!')
 else:
    print("Nope.The number I was thinking of was"+str(secretnumber))       
+   #V1.0
