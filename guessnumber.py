@@ -18,4 +18,4 @@ if guess == secretnumber:
    print("Good job,you guessed my number in "+str(guessTaken)+' guesses!')
 else:
    print("Nope.The number I was thinking of was"+str(secretnumber))       
-   #V1.0
+   #V1.0 
